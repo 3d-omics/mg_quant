@@ -24,7 +24,7 @@ samples["assembly_ids"] = ""
 
 # Generate useful variables
 
-SAMPLE_LIBRARY = samples[["sample_id", "library_id"]].values.tolist()
+SAMPLE_LIBRARY = samples[["sample_id", "library_id"]].drop_duplicates().values.tolist()
 
 HOST_NAMES = [] if features["hosts"] is None else list(features["hosts"].keys())
 
