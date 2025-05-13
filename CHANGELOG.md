@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.6.0](https://github.com/3d-omics/mg_quant/compare/v1.5.0...v1.6.0) (2025-05-13)
+
+
+### Features
+
+* update multiqc so it shows filenames instead of samples ([32da448](https://github.com/3d-omics/mg_quant/commit/32da44803f5323738b9daf96e2d3891288268d6b))
+
+
+### Bug Fixes
+
+* cache mags and index ([78ab60b](https://github.com/3d-omics/mg_quant/commit/78ab60b0f5c3ac870f82f81a48d8358050080832))
+* put quantify bam files with mag.sample.lib.bam format ([0c1c478](https://github.com/3d-omics/mg_quant/commit/0c1c478666a61a1f6226223e67c9007e2becb510))
+* there is no default profile now ([ca7156b](https://github.com/3d-omics/mg_quant/commit/ca7156b990191fa38b252174d9cb48114b40bc36))
+
 ## [1.5.0](https://github.com/3d-omics/mg_quant/compare/v1.4.0...v1.5.0) (2024-12-02)
 
 
